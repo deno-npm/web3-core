@@ -21,7 +21,7 @@
  */
 
 import requestManager from "https://deno.land/x/npm_web3_core_requestmanager@0.0.1/mod.js";
-import extend from "./extend.js";
+import extend from "./src/extend.js";
 
 const packageInit = (pkg, args) => {
     args = Array.prototype.slice.call(args);

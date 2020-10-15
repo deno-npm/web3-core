@@ -8,18 +8,10 @@ The core package contains core functions for [web3.js][repo] packages.
 
 Please read the [documentation][docs] for more.
 
-## Installation
-
-### Node.js
-
-```bash
-npm install web3-core
-```
-
 ## Usage
 
 ```js
-const core = require('web3-core');
+import core from "https://deno.land/x/npm_web3_core@0.0.1/mod.js;
 
 const CoolLib = function CoolLib() {
     // sets _requestmanager and adds basic functions
@@ -33,10 +25,6 @@ CoolLib.BatchRequest();
 CoolLib.extend();
 ...
 ```
-
-## Types
-
-All the TypeScript typings are placed in the `types` folder.
 
 [docs]: http://web3js.readthedocs.io/en/1.0/
 [repo]: https://github.com/ethereum/web3.js
